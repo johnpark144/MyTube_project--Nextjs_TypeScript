@@ -82,7 +82,6 @@ function ExpArrowVideo({ windowWidth, showAnimations, arrowTimer }: ExpArrowProp
           style={{ top:"145px", left: "99%", marginLeft: "-270px" , fontSize:"3px" }}
           className={classNameFunction("10","1","r",1100,8,0,1,2)}
           >&nbsp;</span>
-
       </div>
 )
   }
