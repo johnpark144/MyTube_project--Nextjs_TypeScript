@@ -1,3 +1,4 @@
+// 1부터 10까지중 5개숫자 랜덤으로
 function useFiveRandomData(arrDataState:any) {
 
   const randNumArr: Array<number> = [];
