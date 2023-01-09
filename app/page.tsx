@@ -63,7 +63,6 @@ function HomePage() {
             showAnimations={showAnimations}
             arrowTimer={arrowTimer}
           />
-       
     </div>
   );
 }
