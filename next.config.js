@@ -18,8 +18,8 @@ module.exports = {
   async rewrites(){
     return [
       {
-        source: "/api/videos",    // 기존 주소
-        destination: `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&videoDefinition=any&key=${youtube_api_key}`
+        source: "/api/videos",    // destination 주소에 접근할 새 주소 지정
+        destination: `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=48&videoDefinition=any&key=${youtube_api_key}` // api 불러올 원래 주소
       },
     ]
   }
