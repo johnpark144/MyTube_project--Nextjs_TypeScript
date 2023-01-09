@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import useFetchData from './../../../utils/useFetchData'
+import useFetchData from './../../../utils/useFetchData';
 import TimeAgoCreator from "./../../video/TimeAgoCreator";
 import { BsDot } from "react-icons/Bs";
 import { getVideoForDetail } from "../../../store/store";
