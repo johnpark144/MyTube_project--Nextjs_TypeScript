@@ -8,7 +8,6 @@ import Video from "../Video";
 function searchPage() {
   const searchParams = useSearchParams();
   const q = searchParams.get("q");
-
   const dispatch = useDispatch();
   dispatch(getFromWhere(q)); // from searchParams Query
 
