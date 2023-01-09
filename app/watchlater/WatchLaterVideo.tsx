@@ -64,7 +64,7 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
                       </h3>
                     </div>
                   </div>
-
+                  {/*  */}
                   <div
                     className="flex justify-center p-2 w-12 h-12 rounded-full text-3xl cursor-pointer hover:bg-gray-200"
                     onClick={() => deleteVideo(idx)}
