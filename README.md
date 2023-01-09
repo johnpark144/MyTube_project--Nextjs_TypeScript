@@ -1,4 +1,4 @@
-# MyTube_project--Nextjs_TS
+# MyTube_project--Nextjs_TypeScript
 - Website Link : 
 
 - Creater : Yeonghwan Park (John Park)
