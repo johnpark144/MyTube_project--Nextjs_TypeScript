@@ -3,10 +3,11 @@
 
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), TypeScript
-- Sub Tools : CSS(Tailwind CSS), React-query, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
+- Sub Tools : CSS(Tailwind CSS), Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
 YouTube Data API, YouTube rapidApi, PhotoShop
 - YouTube Data API (https://developers.google.com/youtube/v3/), YouTube rapidApi(https://rapidapi.com/ytdlfree/api/youtube-v31/)
-- Explantion : ,
+- Explantion : I have learned some useful skills to develop web sites such as Next JS, Redux, Reactquery, Darkmode, TypeScript etc. 
+I just wanted to practice all I learned by building this website, since I focused on skills, It would be way different from regular YouTube website so I want to say it is MyTube, and also by building that, I actually realized that some website like this doesn't fit with Server-Side-Renderling(SSR) but good enough with just React, so Building this website was the very instructive time to learn about deference between SSR, CSR, and even SSG, as well as skills that I learn 
 - Comment language : Korean
 
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
@@ -24,19 +25,18 @@ but I didn't even watch that lecture at all other than ending part. so the code 
 - Responsive Website
 - Navigation bar(Header), Footer(for little width)
 - Home Animation(Explanation)
-- Search and Genre Data
+- Search and Genre Video
+- Preview video When Mouse is over the thumbnail for 2 secs
+- History (Watch, Delete, Delete All)
 - Watch later (Watch, Delete)
 - Save and delete videos into Watch later with Drag & Drop
 - Save videos from video detail into Watch later and the Notification
-- Date(time) to Timeageo
-- History (Watch, Delete, Delete All)
 - Video Detail
-- Channel Info
 - Related Videos(from API), Other Videos(from the data before you click the video)
-- Preview video When Mouse is over the thumbnail for 2 secs
+- Channel Info
+- Date(time) to Timeageo
 - Dark Mode
 - Spinner Loading, Animate-pulse Loading
-
 
 # Sample pictures
 
