@@ -9,8 +9,7 @@ function ExpArrowSearch({ showAnimations, arrowTimer }: ExpArrowProps) {
     timerNum1: number,
     timerNum2: number,
     timerNum3: number,
-  ) => {
-    return `absolute w-${w} h-${h} rounded-2xl bg-gradient-to-${toWhere}
+  ) => { return `absolute w-${w} h-${h} rounded-2xl bg-gradient-to-${toWhere}
  from-gray-300 via-gray-500 to-gray-900 transition-all duration-1000
  ${
    showAnimations &&
