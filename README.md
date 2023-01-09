@@ -33,15 +33,24 @@ but I didn't even watch that lecture at all other than ending part. so the code 
 - Save videos from video detail into Watch later and the Notification
 - Video Detail
 - Related Videos(from API), Other Videos(from the data before you click the video)
-- Channel Info
+- Channel Detail
 - Date(time) to Timeageo
 - Dark Mode
 - Spinner Loading, Animate-pulse Loading
 
 # Sample pictures
 
-- Home
+- Video
+![Video](https://user-images.githubusercontent.com/106279616/211402776-a675d6b3-8554-456e-862b-cc34736cedd4.png)
 
+- Save Video in Drag & Drop
+![Drag Drop](https://user-images.githubusercontent.com/106279616/211402791-629cc471-f6f6-4f1f-bd8b-f3ff08eb8d8e.png)
+
+- Video Detail
+![Video_Detail](https://user-images.githubusercontent.com/106279616/211402796-834f0282-800e-40c9-8ec9-ac5211d840a6.png)
+
+- Channel Detail
+![Channel_Detail](https://user-images.githubusercontent.com/106279616/211402817-64ddf0bf-9412-45c2-b5b4-a0364ef313a0.png)
 
 
 # Sample videos
