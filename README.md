@@ -15,9 +15,9 @@ YouTube Data API, YouTube rapidApi, PhotoShop
 - Date of deployment : 
 
 # Ps, FYI
-- In the middle of building this project, I found some similar tutorial lecture from Youtube building Youtube clone only using React.
+- In the middle of building this project, I found some similar tutorial lecture from Youtube building Youtube clone only using React not even NextJS.
 It's true that I refer to how the outcome of this tutorial looks like in the end of that video,
-but I didn't even watch that lecture at all other than ending part. so code and the way to implement will be totally deferent.
+but I didn't even watch that lecture at all other than ending part. so the code and the way to implement will be totally deferent.
 - Due to limited call of API, I decided to use 2 of similar Youtube APIs so the number of calling API has been distributed.
 
 # Functions
