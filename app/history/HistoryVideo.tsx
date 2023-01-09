@@ -85,7 +85,7 @@ function HistoryVideo({ data }: HistoryVideoProps) {
                       </h3>
                     </div>
                   </div>
-
+                  {/* 삭제버튼 */}
                   <div
                     className="flex justify-center p-2 w-12 h-12 rounded-full text-3xl cursor-pointer hover:bg-gray-200"
                     onClick={() => deleteVideo(idx)}
