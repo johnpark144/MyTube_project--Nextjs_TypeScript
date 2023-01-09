@@ -2,7 +2,7 @@
 import Video from "./Video";
 import { useDispatch } from 'react-redux';
 import { getFromWhere } from "../../store/store";
-import useFetchData from './../../utils/useFetchData'
+import useFetchData from './../../utils/useFetchData';
 
 // 디폴트 함수
 function videoPage() {
