@@ -8,7 +8,6 @@ import { BsDot } from 'react-icons/Bs';
 function RecommendedVideoComponent({ data, videoId }:RecommendedVideoComponentProps) {
   const dispatch = useDispatch();
   const router = useRouter();
-  
   return (
     <>
       {data?.map(
