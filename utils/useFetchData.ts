@@ -2,7 +2,7 @@ import { useQuery } from "react-query";
 
 const xRapid_api_key = process.env.YOUTUBE_XRAPID_API_KEY;
 
-// 채널 데이터 불러오는 함수
+// 데이터 불러오는 함수
 async function fetchData(url: string, api?: string) {
   let res;
   // xRapid api
