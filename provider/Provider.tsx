@@ -1,3 +1,4 @@
+// 다크모드, 리액트, 쿼리리덕스
 import React from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Provider as ReduxProvider } from "react-redux";
