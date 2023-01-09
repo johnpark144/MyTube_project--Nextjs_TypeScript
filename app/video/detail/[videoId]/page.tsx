@@ -2,11 +2,11 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/navigation";
-import { IoIosArrowBack } from "react-icons/Io";
 import RecommendedVideo from "./RecommendedVideo";
 import SavedNotification from "./SavedNotification";
 import VideoDetail from './VideoDetail';
 import useFiveRandomData from './../../../../utils/useFiveRandomData';
+import { IoIosArrowBack } from "react-icons/Io";
 
 function videoDetailPage({ params: { videoId } }: videoDetailPageProps) {
   const router = useRouter();
