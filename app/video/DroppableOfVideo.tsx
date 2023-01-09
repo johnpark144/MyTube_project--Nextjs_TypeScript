@@ -26,7 +26,7 @@ function DroppableOfVideo({ data, showWatchLater, watchLaterData }: DroppableOfV
               idx: number
             ) => {
               const [videoOn, setVideoOn] = useState(false);
-              // 마우스오버되면 3초 타이머 후 비디오 재생하는 함수
+              // 마우스오버되면 2초 타이머 후 비디오 재생하는 함수
               const debouncedHandleMouseEnter = debounce(() => {
                 setVideoOn(true);
               }, 2000);
