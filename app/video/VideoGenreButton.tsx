@@ -1,0 +1,56 @@
+"use client";
+import { useRouter } from "next/navigation";
+import { SiDjango } from "react-icons/Si";
+import { SiReact } from "react-icons/Si";
+import { TbBrandNextjs } from "react-icons/Tb";
+import { MdLocalMovies } from "react-icons/Md";
+import { BsFillMusicPlayerFill } from "react-icons/Bs";
+import { SiYoutubegaming } from "react-icons/Si";
+import { BsNewspaper } from "react-icons/Bs";
+import { MdSportsCricket } from "react-icons/Md";
+import { GiClothes } from "react-icons/Gi";
+import { MdLiveTv } from "react-icons/Md";
+import { GiAerialSignal } from "react-icons/Gi";
+
+function VideoGenreButton({ genre }: VideoGenreButtonProps) {
+  const router = useRouter();
+
+  return (
+    <button
+      onClick={(e) => router.push(`/video/${genre.genre}`)}
+      className="flex w-56 text-xl px-4 my-1 lg:my-4 hover:rounded-xl hover:bg-gray-200"
+      key={genre.id}
+    >
+      {/* 장르 아이콘 */}
+      <div className="relative top-2">
+        {genre.genre === "Python Django" ? (
+          <SiDjango />
+        ) : genre.genre === "React Js" ? (
+          <SiReact />
+        ) : genre.genre === "Next Js" ? (
+          <TbBrandNextjs />
+        ) : genre.genre === "Movies" ? (
+          <MdLocalMovies />
+        ) : genre.genre === "Music" ? (
+          <BsFillMusicPlayerFill />
+        ) : genre.genre === "Gaming" ? (
+          <SiYoutubegaming />
+        ) : genre.genre === "News" ? (
+          <BsNewspaper />
+        ) : genre.genre === "Learning" ? (
+          <MdSportsCricket />
+        ) : genre.genre === "Beauty" ? (
+          <GiClothes />
+        ) : genre.genre === "Live" ? (
+          <MdLiveTv />
+        ) : (
+          <GiAerialSignal />
+        )}
+      </div>
+      {/* 장르명 */}
+      <div className="my-2 ml-3">{genre.genre}</div>
+    </button>
+  );
+}
+
+export default VideoGenreButton;
