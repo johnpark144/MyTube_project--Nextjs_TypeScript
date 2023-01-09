@@ -21,7 +21,6 @@ function ExpArrowSearch({ showAnimations, arrowTimer }: ExpArrowProps) {
  }`;
   };
 
-
   return (
     <div className="invisible lg:visible">
       {/* 설명 box */}
