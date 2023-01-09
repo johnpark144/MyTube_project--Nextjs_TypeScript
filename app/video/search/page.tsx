@@ -8,6 +8,7 @@ import Video from "../Video";
 function searchPage() {
   const searchParams = useSearchParams();
   const q = searchParams.get("q");
+
   const dispatch = useDispatch();
   dispatch(getFromWhere(q)); // from searchParams Query
 
@@ -19,7 +20,7 @@ function searchPage() {
   }
 
   // 채널 정보는 비디오 목록에서 삭제
-  const dataWithoutChannelInfo = data.items.filter(
+  const dataWithoutChannelInfo = data?.items?.filter(
     (arr: searchedDataArrProps) => "videoId" in arr.id
   );
 
@@ -27,3 +28,4 @@ function searchPage() {
 }
 
 export default searchPage;
+
