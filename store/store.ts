@@ -23,7 +23,6 @@ const arrData = createSlice({
     }
 });
 
-
 export const { getVideoForDetail } = video.actions;
 export const { getArrDataForDetail, getFromWhere } = arrData.actions;
 
