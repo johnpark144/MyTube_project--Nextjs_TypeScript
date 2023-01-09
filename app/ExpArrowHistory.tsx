@@ -1,10 +1,6 @@
 import { MdArrowUpward } from "react-icons/Md";
 
-function ExpArrowHistory({
-  windowWidth,
-  showAnimations,
-  arrowTimer,
-}: ExpArrowProps) {
+function ExpArrowHistory({ windowWidth, showAnimations, arrowTimer }: ExpArrowProps) {
   if (!windowWidth) {
     windowWidth = 0;
   }
