@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { getVideoForDetail, getArrDataForDetail } from "../../store/store";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { BsDot } from "react-icons/Bs";
+import { BsDot } from "react-icons/bs";
 import TimeAgoCreator from "./TimeAgoCreator";
 
 function DraggableInDroppableOfVideo({
