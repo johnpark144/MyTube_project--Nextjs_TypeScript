@@ -21,7 +21,7 @@ function searchPage() {
 
   // 채널 정보는 비디오 목록에서 삭제
   const dataWithoutChannelInfo = data?.items?.filter(
-    (arr: searchedDataArrProps) => "videoId" in arr.id
+    (arr: noChannelInfoDataArrProps) => "videoId" in arr.id
   );
 
   return <Video genreOrSearch={q} data={dataWithoutChannelInfo} />;
