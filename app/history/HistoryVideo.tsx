@@ -5,8 +5,8 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import TimeAgoCreator from "../video/TimeAgoCreator";
 import { getVideoForDetail } from "../../store/store";
-import { RiCloseLine } from "react-icons/Ri";
-import { BsDot } from "react-icons/Bs";
+import { RiCloseLine } from "react-icons/ri";
+import { BsDot } from "react-icons/bs";
 
 function HistoryVideo({ data }: HistoryVideoProps) {
   const dispatch = useDispatch();
