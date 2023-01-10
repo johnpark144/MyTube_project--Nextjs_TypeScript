@@ -6,7 +6,7 @@ import RecommendedVideo from "./RecommendedVideo";
 import SavedNotification from "./SavedNotification";
 import VideoDetail from './VideoDetail';
 import useFiveRandomData from './../../../../utils/useFiveRandomData';
-import { IoIosArrowBack } from "react-icons/Io";
+import { IoIosArrowBack } from "react-icons/io";
 
 function videoDetailPage({ params: { videoId } }: videoDetailPageProps) {
   const router = useRouter();
