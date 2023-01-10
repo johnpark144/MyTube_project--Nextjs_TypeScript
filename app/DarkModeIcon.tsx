@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { BsFillMoonFill, BsFillSunFill } from "react-icons/Bs";
+import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
 function DarkModeIcon() {
   const { systemTheme, theme, setTheme } = useTheme(); // 다크모드 툴
