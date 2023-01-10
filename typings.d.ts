@@ -103,7 +103,7 @@ type DroppableOfVideoProps = {
   watchLaterData: Array;
 };
 
-type searchedDataArrProps = {
+type noChannelInfoDataArrProps = {
   etag: string;
   id: object;
   kind: string;
