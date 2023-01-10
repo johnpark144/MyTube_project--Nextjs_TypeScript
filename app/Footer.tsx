@@ -1,7 +1,7 @@
 // 화면이 작아질때만 등장
 import Link from "next/link";
-import { BsCameraVideo, BsSave } from "react-icons/Bs";
-import { BiHistory } from "react-icons/Bi";
+import { BsCameraVideo, BsSave } from "react-icons/bs";
+import { BiHistory } from "react-icons/bi";
 
 function Footer() {
   return (
