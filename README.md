@@ -15,7 +15,7 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment) -> (more buges have been tweaked after upload)
 - Date of upload : Jan 9th 2023
 - Date of deployment : Jan 10th 2023
-- deployment Tool : Vercel
+- Deployment Tool : Vercel
 
 # Ps, FYI
 - In the middle of building this project, I found some similar tutorial lecture from Youtube building Youtube clone only using React not even NextJS.
