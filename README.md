@@ -12,7 +12,7 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Comment language : Korean
 
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
-- Date of debugging : Jan 6th ~ Jan 9th 2023 (clean code, fix error, custom hook, comment)
+- Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment) -> (more buges have been tweaked after upload)
 - Date of upload : Jan 9th 2023
 - Date of deployment : 
 
