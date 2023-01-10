@@ -1,4 +1,4 @@
-import { MdArrowUpward } from "react-icons/Md";
+import { MdArrowUpward } from "react-icons/md";
 
 function ExpArrowHome({ showAnimations, arrowTimer }: ExpArrowProps) {
   // 중복된 클래스이름
