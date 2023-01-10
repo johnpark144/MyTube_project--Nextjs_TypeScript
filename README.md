@@ -56,8 +56,19 @@ but I didn't even watch that lecture at all other than ending part. so the code 
 
 # Sample videos
 
-- Responsive Website, Home Animation(Explanation), Dark Mode
-- Search and Genre Video, detail, Preview video When Mouse is over the thumbnail for 2 secs
-- Save and delete videos into Watch later with Drag & Drop, Watch later (Watch, Delete)
-- Save videos from video detail into Watch later and the Notification, Watch later (Watch, Delete)
-- History (Watch, Delete, Delete All), Video Detail, Channel Detail
+
+<h3> 1. Search, Genre, detail, Preview </h3>
+<video src="https://user-images.githubusercontent.com/106279616/211602339-52195ac2-f394-4dbc-a580-43dd969bf1d9.mp4"></video>
+
+<h3> 2. Save and delete with Drag & Drop </h3>
+<video src="https://user-images.githubusercontent.com/106279616/211602667-b20aa794-0bc1-4716-83e5-b3196ba941a0.mp4"></video>
+
+<h3> 3. Save videos in detail and Notification </h3>
+<video src="https://user-images.githubusercontent.com/106279616/211602900-b0603fec-c099-46d5-aa20-95e25a484ee4.mp4"></video>
+
+<h3> 4. History, Video Detail, Channel Detail </h3>
+<video src="https://user-images.githubusercontent.com/106279616/211603068-a73f4560-e8c5-4447-8494-607ec6fa323a.mp4"></video>
+
+<h3> 5. Dark Mode, Responsive, Home </h3>
+<video src="https://user-images.githubusercontent.com/106279616/211603120-7519249f-aa55-4e89-99c3-9bb1067c14d5.mp4"></video>
+
