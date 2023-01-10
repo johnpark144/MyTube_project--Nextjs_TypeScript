@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import useFetchData from './../../../utils/useFetchData';
 import TimeAgoCreator from "./../../video/TimeAgoCreator";
-import { BsDot } from "react-icons/Bs";
+import { BsDot } from "react-icons/s";
 import { getVideoForDetail } from "../../../store/store";
 
 function ChannelHomeVideo({ data, isHomeMenu, channelId }: ChannelData) {
