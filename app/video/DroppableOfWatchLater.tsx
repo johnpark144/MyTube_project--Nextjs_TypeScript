@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import TimeAgoCreator from "./TimeAgoCreator";
 import { getVideoForDetail } from "../../store/store";
-import { BsDot } from "react-icons/Bs";
+import { BsDot } from "react-icons/bs";
 
 function DroppableOfWatchLater({ watchLaterData }: DroppableOfWatchLaterProps) {
   const dispatch = useDispatch();
