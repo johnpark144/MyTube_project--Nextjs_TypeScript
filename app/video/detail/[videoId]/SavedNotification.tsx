@@ -1,4 +1,4 @@
-import { AiOutlineCloseSquare } from "react-icons/Ai";
+import { AiOutlineCloseSquare } from "react-icons/ai";
 import { useEffect, useState } from "react";
 
 function SavedNotification({ saved }: SavedNotificationProps) {
