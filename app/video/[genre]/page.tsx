@@ -15,7 +15,12 @@ function Genre({ params: { genre } }: GenreProps) {
     return <span className="loader"></span>;
   }
 
-  return <Video genreOrSearch={genre} data={data.items} />;
+  // 채널 정보는 비디오 목록에서 삭제
+  const dataWithoutChannelInfo = data?.items?.filter(
+    (arr: noChannelInfoDataArrProps) => "videoId" in arr.id
+  );
+  
+  return <Video genreOrSearch={genre} data={dataWithoutChannelInfo} />;
 }
 
 export default Genre;
