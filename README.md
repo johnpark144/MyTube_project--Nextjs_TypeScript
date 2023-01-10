@@ -57,7 +57,6 @@ but I didn't even watch that lecture at all other than ending part. so the code 
 
 # Sample videos
 
-
 <h3> 1. Search, Genre, detail, Preview </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211602339-52195ac2-f394-4dbc-a580-43dd969bf1d9.mp4"></video>
 
