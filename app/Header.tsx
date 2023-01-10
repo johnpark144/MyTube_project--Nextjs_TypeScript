@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from 'next/navigation';
 import Provider from './../provider/Provider';
 import DarkModeIcon from "./DarkModeIcon";
-import { FcSearch } from "react-icons/Fc";
+import { FcSearch } from "react-icons/fc";
 
 function Header() {
   const router = useRouter()
