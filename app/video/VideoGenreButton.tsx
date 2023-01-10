@@ -1,10 +1,10 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { SiDjango, SiReact, SiYoutubegaming } from "react-icons/Si";
-import { BsFillMusicPlayerFill, BsNewspaper } from "react-icons/Bs";
-import { MdLocalMovies, MdSportsCricket, MdLiveTv } from "react-icons/Md";
-import { GiClothes, GiAerialSignal } from "react-icons/Gi";
-import { TbBrandNextjs } from "react-icons/Tb";
+import { SiDjango, SiReact, SiYoutubegaming } from "react-icons/si";
+import { BsFillMusicPlayerFill, BsNewspaper } from "react-icons/bs";
+import { MdLocalMovies, MdSportsCricket, MdLiveTv } from "react-icons/md";
+import { GiClothes, GiAerialSignal } from "react-icons/gi";
+import { TbBrandNextjs } from "react-icons/tb";
 
 function VideoGenreButton({ genre }: VideoGenreButtonProps) {
   const router = useRouter();
