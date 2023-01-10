@@ -55,3 +55,9 @@ but I didn't even watch that lecture at all other than ending part. so the code 
 
 
 # Sample videos
+
+- Responsive Website, Home Animation(Explanation), Dark Mode
+- Search and Genre Video, detail, Preview video When Mouse is over the thumbnail for 2 secs
+- Save and delete videos into Watch later with Drag & Drop, Watch later (Watch, Delete)
+- Save videos from video detail into Watch later and the Notification, Watch later (Watch, Delete)
+- History (Watch, Delete, Delete All), Video Detail, Channel Detail
