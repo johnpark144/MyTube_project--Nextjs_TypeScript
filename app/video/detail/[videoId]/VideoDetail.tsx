@@ -1,5 +1,5 @@
 import { useRouter } from "next/navigation";
-import { MdPlaylistAdd } from "react-icons/Md";
+import { MdPlaylistAdd } from "react-icons/md";
 import TimeAgoCreator from "./../../TimeAgoCreator";
 
 function VideoDetail({ title, channel, channelId, video, saved, setSaved, videoId, time, publishedAt, description }: VideoDetailProps) {
