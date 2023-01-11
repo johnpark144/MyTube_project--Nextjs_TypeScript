@@ -1,6 +1,5 @@
 # MyTube_project--Nextjs_TypeScript
-- Website Link : https://mytube-9avzp8q0b-johnpark144.vercel.app/     (Jan 10th 2023) -> the number of API run out, so today you can't see the videos :(
-
+- Website Link : https://mytube-9avzp8q0b-johnpark144.vercel.app/
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), TypeScript
 - Sub Tools : CSS(Tailwind CSS), Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
