@@ -45,4 +45,4 @@ function DarkModeIcon() {
   )
 }
 
-export default DarkModeIcon
+export default DarkModeIcon;
