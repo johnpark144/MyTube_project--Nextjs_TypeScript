@@ -6,12 +6,12 @@
 YouTube Data API, YouTube rapidApi, PhotoShop
 - YouTube Data API (https://developers.google.com/youtube/v3/)
 - YouTube rapidApi(https://rapidapi.com/ytdlfree/api/youtube-v31/)
-- Explantion : I have learned some useful skills to develop web sites such as Next JS, Redux, Reactquery, Darkmode, TypeScript etc. 
+- Explantion : I have learned some useful skills to develop web sites such as Next JS, Redux, Reactquery, Darkmode, TypeScript, etc. 
 I just wanted to practice all I learned by building this website, since I focused on skills, It would be way different from regular YouTube website so I want to say it is MyTube, and also by building that, I actually realized that some website like this doesn't fit with Server-Side-Renderling(SSR) but good enough with just React, so Building this website was the very instructive time to learn about deference between SSR, CSR, and even SSG, as well as skills that I learn 
 - Comment language : Korean
 
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
-- Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment) -> (more buges have been tweaked after upload)
+- Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
 - Date of upload : Jan 9th 2023
 - Date of deployment : Jan 10th 2023
 - Deployment Tool : Vercel
