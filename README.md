@@ -12,7 +12,8 @@ I just wanted to practice all I learned by building this website, since I focuse
 
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
-- Date of upload : Jan 9th 2023
+- (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone 
+- Date of upload : Jan 9th 
 - Date of deployment : Jan 10th 2023
 - Deployment Tool : Vercel
 
