@@ -1,5 +1,5 @@
 # MyTube_project--Nextjs_TypeScript
-- Website Link : https://mytube-jet.vercel.app/
+- Website Link : https://mytube-jet.vercel.app/ (fix it soon)
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), TypeScript
 - Sub Tools : CSS(Tailwind CSS), Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
