@@ -1,5 +1,5 @@
 # MyTube_project--Nextjs_TypeScript
-- Website Link : https://mytube-jet.vercel.app/ (fix it soon)
+- Website Link : https://port-0-mytube-1jx7m2gldonqeix.gksl1.cloudtype.app/
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), TypeScript
 - Sub Tools : CSS(Tailwind CSS), Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
@@ -13,9 +13,9 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone 
-- Date of upload : Jan 9th 
+- Date of upload : <strike>Jan 9th</strike> -> Feb 3rd
 - Date of deployment : Jan 10th 2023
-- Deployment Tool : Vercel
+- Deployment Tool : <strike>Vercel</strike> -> Cloudtype
 
 # Ps, FYI
 - In the middle of building this project, I found some similar tutorial lecture from Youtube building Youtube clone only using React not even NextJS.
