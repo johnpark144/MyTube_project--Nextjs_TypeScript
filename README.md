@@ -13,7 +13,7 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone 
-- Date of upload : <strike>Jan 9th</strike> -> Feb 3rd
+- Date of upload : <strike>Jan 9th</strike> -> Feb 3rd 2023
 - Date of deployment : Jan 10th 2023
 - Deployment Tool : <strike>Vercel</strike> -> Cloudtype
 
