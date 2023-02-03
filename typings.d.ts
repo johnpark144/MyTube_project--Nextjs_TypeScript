@@ -134,3 +134,11 @@ type WatchLaterVideoProps = {
 type ProviderProps = {
   children: React.ReactNode;
 };
+
+type DraggableInDroppableOfVideoProps = {
+  arr: DataArr;
+  idx: number;
+  showWatchLater: boolean;
+  watchLaterData: Array;
+  data: Array;
+}
