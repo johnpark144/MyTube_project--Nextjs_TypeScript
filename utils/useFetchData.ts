@@ -24,8 +24,8 @@ async function fetchData(url: string, api?: string) {
 // 디폴트 함수 (useQuery)
 function useFetchData(queryKey:string, url:string, id?:string|number|null, api?:string|undefined) {
 const outcome = useQuery([`${queryKey}`, id], ()=>fetchData(url, api), {
-  staleTime: 3600000,
-  cacheTime: 21600000,
+  staleTime: 86400000,  // 24시간 (잦은 API call 때문에 변경..)
+  cacheTime: 172800000, // 48시간
   keepPreviousData: true,
 });
 return outcome;
