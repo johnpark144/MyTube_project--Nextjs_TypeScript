@@ -19,7 +19,7 @@ function ChannelHomeVideo({ data, isHomeMenu, channelId }: ChannelData) {
 
   // Custom Hook(with useQuery)
   const q = useFetchData("channelVideos",
-  `https://youtube-v31.p.rapidapi.com/search?channelId=${channelId}&part=snippet%2Cid&order=date&maxResults=50`, channelId, "rapidApi")
+  `https://youtube-v31.p.rapidapi.com/search?channelId=${channelId}&part=snippet%2Cid&order=date&maxResults=20`, channelId, "rapidApi")
 
   if (q.isLoading) {
     return (
