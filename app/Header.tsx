@@ -21,11 +21,11 @@ function Header() {
   return (
     <>
       <header className="z-40 h-16 w-full items-center rounded-2xl bg-white shadow-lg dark:bg-gray-700">
-        <div className="flex-center relative z-20 flex h-full flex-col justify-center px-3">
-          <div className="text-xl sm:text-2xl left-0 z-50 flex h-full w-full justify-between">
+        <div className="flex-center relative z-20 flex h-full flex-col justify-center px-1 sm:px-3">
+          <div className="text-lg sm:text-2xl left-0 z-50 flex h-full w-full justify-between">
             <Link href="/" className="flex">
               {/* 로고와 MyTube */}
-              <div className="relative w-24 h-14">
+              <div className="relative top-2 w-[5rem] h-[3rem] sm:top-0 sm:w-24 sm:h-14">
               <Image
                 src="https://user-images.githubusercontent.com/106279616/209161034-33287953-5b8f-40b3-ac12-a63010849fbf.png"
                 fill
@@ -37,8 +37,8 @@ function Header() {
             {/* 검색 */}
             <form
               onSubmit={doSearch}
-              className="group absolute top-0 left-[199px] flex items-center h-full w-[277px]
-              sm:left-56 sm:w-[343px] md:w-[479px] lg:relative lg:left-0 lg:w-1/2"
+              className="group absolute top-0 left-[170px] sm:left-[199px] sm:ml-2 lg:ml-0 flex items-center h-full w-[240px] sm:w-[277px]
+              sm:w-[343px] md:w-[479px] lg:relative lg:left-0 lg:w-1/2"
             >
               <input
                 type="text"
