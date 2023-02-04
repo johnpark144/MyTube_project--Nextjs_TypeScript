@@ -38,7 +38,7 @@ function DraggableInDroppableOfVideo({
       {(provided, snapshot) => (
         <div
           onMouseLeave={handlOnMouseLeave}
-          className={`w-[367px] h-[400px] mb-24 cursor-pointer hover:scale-110 rounded-2xl 
+          className={`w-[367px] h-[400px] mb-24 cursor-pointer hover:md:scale-110 rounded-2xl 
                             ${
                               Boolean(
                                 (watchLaterData?.filter(
