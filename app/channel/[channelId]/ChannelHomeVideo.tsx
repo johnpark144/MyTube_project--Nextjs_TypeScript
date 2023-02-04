@@ -84,7 +84,7 @@ function ChannelHomeVideo({ data, isHomeMenu, channelId }: ChannelData) {
                         dispatch(getVideoForDetail(arr));
                         router.push(`/video/detail/${arr.id.videoId}`);
                       }}
-                      className="w-96 h-[480px] m-4 cursor-pointer hover:scale-110"
+                      className="w-96 h-[480px] m-4 cursor-pointer hover:md:scale-110"
                     >
                       {/* 썸네일 */}
                       <div>
