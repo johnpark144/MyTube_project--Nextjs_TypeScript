@@ -2,8 +2,10 @@
 - Website Link : https://port-0-mytube-1jx7m2gldonqeix.gksl1.cloudtype.app/
 - Creater : Yeonghwan Park (John Park)
 - Main Tools : Next JS (ver 13), TypeScript
-- Sub Tools : CSS(Tailwind CSS), Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
+- CSS : Tailwind CSS
+- Sub Tools : Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
 YouTube Data API, YouTube rapidApi, PhotoShop
+- Bundler : Webpack
 - YouTube Data API (https://developers.google.com/youtube/v3/)
 - YouTube rapidApi(https://rapidapi.com/ytdlfree/api/youtube-v31/)
 - Explantion : I have learned some useful skills to develop web sites such as Next JS, Redux, Reactquery, Darkmode, TypeScript, etc. 
@@ -14,7 +16,7 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
 - (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone 
 - Date of upload : <strike>Jan 9th</strike> -> Feb 3rd 2023
-- Date of deployment : Jan 10th 2023
+- Date of 1st deployment : Jan 10th 2023
 - Deployment Tool : <strike>Vercel</strike> -> Cloudtype
 
 # Ps, FYI
