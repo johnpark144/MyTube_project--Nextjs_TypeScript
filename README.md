@@ -10,11 +10,22 @@ YouTube Data API, YouTube rapidApi, PhotoShop
 - YouTube rapidApi(https://rapidapi.com/ytdlfree/api/youtube-v31/)
 - Explantion : I have learned some useful skills to develop web sites such as Next JS, Redux, Reactquery, Darkmode, TypeScript, etc. 
 I just wanted to practice all I learned by building this website, since I focused on skills, It would be way different from regular YouTube website so I want to say it is MyTube, and also by building that, I actually realized that some website like this doesn't fit with Server-Side-Renderling(SSR) but good enough with just React, so Building this website was the very instructive time to learn about deference between SSR, CSR, and even SSG, as well as skills that I learn 
-- Comment language : Korean
 
+- Hard Part and Solution :
+1. I tried to build a website with Next js for the first time, and I saw Vercel is promoting "Turbopack" a lot. so I used it but there are a lot of bug and error
+but not enough datas or informations about that. so I was wandering here and there and came to conclusion not to use Turbopack yet but Webpack.
+2. Whenever I used any react hook or LINK, the error "call is undefined" was happening continually, I struggled for about 2 days to fix it but no information had been found, but it turned out that it was error of latest version of that time of Next JS 13, so using the previous version was only solution until the error was corrected.
+(now the current version is ok, those are firxed thankfully)
+3. When I deploy this web site in vercel, It continually failed, so I tried my best to fix it and googled it, but It was so vague search Results that are hard to find the solution. but I found that I typed the first letter of a directory's name as the uppercase letter that is supposed to be lowercase. It was not problem whatsoever in localhost but problem in deployment in vercel.
+so it was more hard time to dicover the problem
+4. overtime, due to frequent API call, Vercel blocked me out for no payment, so I moved it to "Cloudtype" that is Korean deployment platform.
+
+- Things To Fix or Improve : need to get this clean code, better design of "Home"page (It was before I learn about usefull animation or css libraries),
+- Name why : the reason why I named this site "MyTube" is because I focused to save viedos of youtube into "watch later" of this site then those become my videos saved, on top of that, by this I came to figure out good idea of its logo.
+
+- Comment language : Korean
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
-- (I still have to fix CSS for better responsive web site, it's not pretty bit for mobile phone 
 - Date of upload : <strike>Jan 9th</strike> -> Feb 3rd 2023
 - Date of 1st deployment : Jan 10th 2023
 - Deployment Tool : <strike>Vercel</strike> -> Cloudtype
