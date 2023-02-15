@@ -5,7 +5,7 @@
 - CSS : Tailwind CSS
 - Sub Tools : Reactquery, Redux(toolkit), React-beautiful-dnd, Lodash debounce, React-timeago, Next-themes,
 YouTube Data API, YouTube rapidApi, PhotoShop
-- Idea or Not : Idea 55%, Clone 45% (not the tutorial code but UI, UX)
+- Idea or Not : Idea 55%, Clone 45% (not the tutorial code at all, but only UI, UX)
 - Bundler : Webpack
 - YouTube Data API (https://developers.google.com/youtube/v3/)
 - YouTube rapidApi(https://rapidapi.com/ytdlfree/api/youtube-v31/)
