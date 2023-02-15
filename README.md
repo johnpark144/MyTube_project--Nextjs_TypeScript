@@ -22,6 +22,7 @@ so it was more hard time to dicover the problem
 4. overtime, due to frequent API call, Vercel blocked me out for no payment, so I moved it to "Cloudtype" that is Korean deployment platform.
 
 - Things To Fix or Improve : need to get this clean code, better design of "Home"page (It was before I learn about usefull animation or css libraries),
+- Login Must ? : No
 - Name why : the reason why I named this site "MyTube" is because I focused to save viedos of youtube into "watch later" of this site then those become my videos saved, on top of that, by this I came to figure out good idea of its logo.
 
 - Comment language : Korean
