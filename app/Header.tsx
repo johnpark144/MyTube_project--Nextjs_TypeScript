@@ -2,19 +2,19 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from 'next/navigation';
-import Provider from './../provider/Provider';
+import { useRouter } from "next/navigation";
+import Provider from "./../provider/Provider";
 import DarkModeIcon from "./DarkModeIcon";
 import { FcSearch } from "react-icons/fc";
 
 function Header() {
-  const router = useRouter()
+  const router = useRouter();
   const [searchWord, setSearchWord] = useState("");
 
   // 검색
-  const doSearch = (e:React.FormEvent<HTMLFormElement>) => {
+  const doSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    router.push(`/video/search?q=${searchWord}`)
+    router.push(`/video/search?q=${searchWord}`);
     setSearchWord("");
   };
 
@@ -26,11 +26,11 @@ function Header() {
             <Link href="/" className="flex">
               {/* 로고와 MyTube */}
               <div className="relative top-2 w-[5rem] h-[3rem] sm:top-0 sm:w-24 sm:h-14">
-              <Image
-                src="https://user-images.githubusercontent.com/106279616/209161034-33287953-5b8f-40b3-ac12-a63010849fbf.png"
-                fill
-                alt="MyTube-Logo"
-              />
+                <Image
+                  src="https://user-images.githubusercontent.com/106279616/209161034-33287953-5b8f-40b3-ac12-a63010849fbf.png"
+                  fill
+                  alt="MyTube-Logo"
+                />
               </div>
               <div className="mt-4 mx-3">MyTube</div>
             </Link>
@@ -38,7 +38,7 @@ function Header() {
             <form
               onSubmit={doSearch}
               className="group absolute top-0 left-[170px] sm:left-[199px] sm:ml-2 lg:ml-0 flex items-center h-full w-[240px] sm:w-[277px]
-              sm:w-[343px] md:w-[479px] lg:relative lg:left-0 lg:w-1/2"
+              md:w-[479px] lg:relative lg:left-0 lg:w-1/2"
             >
               <input
                 type="text"
@@ -59,15 +59,19 @@ function Header() {
             </form>
             {/* 다크모드 */}
             <div className="absolute right-1 sm:right-12 lg:relative lg:top-0 lg:left-0">
-            <Provider>
-              <DarkModeIcon />
-            </Provider>
-          </div>
+              <Provider>
+                <DarkModeIcon />
+              </Provider>
+            </div>
             {/* 메뉴, Lg사이즈일때만 visible */}
             <ol className="invisible flex flex-none justify-evenly text-center lg:visible lg:flex-row lg:mt-4 lg:ml-0 ">
-              <Link  href="/video">Video</Link>
-              <Link className="ml-8" href="/watchlater">Watch later</Link>
-              <Link className="ml-8" href="/history">History</Link>
+              <Link href="/video">Video</Link>
+              <Link className="ml-8" href="/watchlater">
+                Watch later
+              </Link>
+              <Link className="ml-8" href="/history">
+                History
+              </Link>
             </ol>
           </div>
         </div>
