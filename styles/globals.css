@@ -7,6 +7,10 @@
   padding: 0px;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 /* ################################ 스크롤 제거 ################################ */
 .no-scroll {
   display: flex;

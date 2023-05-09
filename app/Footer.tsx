@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <footer
-        className="visible fixed bottom-0 left-0 z-40 h-16 w-screen
+        className="visible fixed bottom-0 left-0 z-40 h-16 w-full
       border-t-2 border-gray-100 border-solid
       items-center rounded-2xl bg-white dark:bg-gray-700 lg:invisible"
       >

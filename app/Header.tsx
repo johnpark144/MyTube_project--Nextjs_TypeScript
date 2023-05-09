@@ -20,9 +20,9 @@ function Header() {
 
   return (
     <>
-      <header className="z-40 h-16 w-screen items-center rounded-2xl bg-white shadow-lg dark:bg-gray-700">
+      <header className="z-40 h-16 w-full items-center rounded-2xl bg-white shadow-lg dark:bg-gray-700">
         <div className="flex-center relative z-20 flex h-full flex-col justify-center px-1 sm:px-3">
-          <div className="text-lg sm:text-2xl left-0 z-50 flex h-full w-full justify-between">
+          <div className="text-lg sm:text-2xl left-0 z-50 flex h-full justify-between">
             <Link href="/" className="flex">
               {/* 로고와 MyTube */}
               <div className="relative top-2 w-[5rem] h-[3rem] sm:top-0 sm:w-24 sm:h-14">
@@ -37,7 +37,7 @@ function Header() {
             {/* 검색 */}
             <form
               onSubmit={doSearch}
-              className="group absolute top-0 left-[170px] sm:left-[199px] sm:ml-2 lg:ml-0 flex items-center h-full w-[240px] sm:w-[277px]
+              className="group absolute top-0 left-[170px] sm:left-[199px] sm:ml-2 lg:ml-0 flex items-center h-full w-[210px] sm:w-[277px]
               md:w-[479px] lg:relative lg:left-0 lg:w-1/2"
             >
               <input
@@ -63,8 +63,8 @@ function Header() {
                 <DarkModeIcon />
               </Provider>
             </div>
-            {/* 메뉴, Lg사이즈일때만 visible */}
-            <ol className="invisible flex flex-none justify-evenly text-center lg:visible lg:flex-row lg:mt-4 ">
+            {/* 메뉴, Lg사이즈일때만 hidden */}
+            <ol className="hidden lg:flex flex-none justify-evenly text-center lg:flex-row lg:mt-4 ">
               <Link href="/video">Video</Link>
               <Link className="ml-8" href="/watchlater">
                 Watch later

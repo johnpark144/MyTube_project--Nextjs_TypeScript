@@ -35,34 +35,38 @@ function HomePage() {
   return (
     <div className="w-full">
       {/* TV, Welcome, Let's go, Logo */}
-      <TV_Letters windowWidth={windowWidth} arrowTimer={arrowTimer} showAnimations={showAnimations} />
+      <TV_Letters
+        windowWidth={windowWidth}
+        arrowTimer={arrowTimer}
+        showAnimations={showAnimations}
+      />
 
-          {/* 설명과 화살표 */}
-          <ExpArrowHome
-            windowWidth={windowWidth}
-            showAnimations={showAnimations}
-            arrowTimer={arrowTimer}
-          />
-          <ExpArrowSearch
-            windowWidth={windowWidth}
-            showAnimations={showAnimations}
-            arrowTimer={arrowTimer}
-          />
-          <ExpArrowVideo
-            windowWidth={windowWidth}
-            showAnimations={showAnimations}
-            arrowTimer={arrowTimer}
-          />
-          <ExpArrowWatchLater
-            windowWidth={windowWidth}
-            showAnimations={showAnimations}
-            arrowTimer={arrowTimer}
-          />
-          <ExpArrowHistory
-            windowWidth={windowWidth}
-            showAnimations={showAnimations}
-            arrowTimer={arrowTimer}
-          />
+      {/* 설명과 화살표 */}
+      <ExpArrowHome
+        windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
+      <ExpArrowSearch
+        windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
+      <ExpArrowVideo
+        windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
+      <ExpArrowWatchLater
+        windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
+      <ExpArrowHistory
+        windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
     </div>
   );
 }
