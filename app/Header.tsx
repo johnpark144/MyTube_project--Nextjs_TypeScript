@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <>
-      <header className="z-40 h-16 w-full items-center rounded-2xl bg-white shadow-lg dark:bg-gray-700">
+      <header className="z-40 h-16 w-screen items-center rounded-2xl bg-white shadow-lg dark:bg-gray-700">
         <div className="flex-center relative z-20 flex h-full flex-col justify-center px-1 sm:px-3">
           <div className="text-lg sm:text-2xl left-0 z-50 flex h-full w-full justify-between">
             <Link href="/" className="flex">
@@ -64,7 +64,7 @@ function Header() {
               </Provider>
             </div>
             {/* 메뉴, Lg사이즈일때만 visible */}
-            <ol className="invisible flex flex-none justify-evenly text-center lg:visible lg:flex-row lg:mt-4 lg:ml-0 ">
+            <ol className="invisible flex flex-none justify-evenly text-center lg:visible lg:flex-row lg:mt-4 ">
               <Link href="/video">Video</Link>
               <Link className="ml-8" href="/watchlater">
                 Watch later
