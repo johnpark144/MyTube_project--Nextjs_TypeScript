@@ -17,7 +17,7 @@ I just wanted to practice all I learned by building this website, since I focuse
 - Hard Part and Solution :
 1. I tried to build a website with Next js for the first time, and I saw Vercel is promoting "Turbopack" a lot. so I used it but there are a lot of bug and error
 but not enough datas or informations about that. so I was wandering here and there and came to conclusion not to use Turbopack yet but Webpack.
-2. Whenever I used any react hook or LINK, the error "call is undefined" was happening continually, I struggled for about 2 days to fix it but no information had been found, but it turned out that it was error of latest version of that time of Next JS 13, so using the previous version was only solution until the error was corrected.
+2. Whenever I used any react hook or Link, the error "call is undefined" was happening continually, I struggled for about 2 days to fix it but no information had been found, but it turned out that it was error of latest version of that time of Next JS 13, so using the previous version was only solution until the error was corrected.
 (now the current version is ok, those are firxed thankfully)
 3. When I deploy this web site in vercel, It continually failed, so I tried my best to fix it and googled it, but It was so vague search Results that are hard to find the solution. but I found that I typed the first letter of a directory's name as the uppercase letter that is supposed to be lowercase. It was not problem whatsoever in localhost but problem in deployment in vercel.
 so it was more hard time to dicover the problem
