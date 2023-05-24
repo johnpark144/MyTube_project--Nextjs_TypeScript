@@ -27,62 +27,62 @@
 - 주석 언어 : 한국
 - 만든기간 : 2022년 12월 20일 ~ 2023년 1월 6일
 - 디버깅기간 : 2023년 1월 6일 ~ 1월 10일 (클린코드, 오류 점검, 커스텀 훅, 주석)
-- 처음 깃허브 올린날: Jan 9th 2023
-- 배포 한날 : <strike>Jan 10th 2023</strike> -> Feb 3rd 2023
+- 처음 깃허브 올린날: 2023년 1월 9일
+- 배포 한날 : <strike>2023년 1월 10일</strike> -> 2023년 2월 3일
 - 배포 도구 : <strike>Vercel</strike> -> Cloudtype
 
-# Ps, FYI
-- In the middle of building this project, I found some similar tutorial lecture from Youtube building Youtube clone only using React not even NextJS.
-It's true that I refer to how the outcome of this tutorial looks like in the end of that video,
-but I didn't even watch that lecture at all other than ending part. so the code and the way to implement will be totally deferent.
-- Due to limited call of API, I decided to use 2 of similar Youtube APIs so the number of calling API has been distributed.
+# Ps, 참고
+- 이 프로젝트를 구축하는 도중에, NextJS가 아닌 리액트만 사용하여 유튜브 클론하는 어떤 튜토리얼 강의를 발견하였습니다.
+저는 그 튜토리얼에 어떠한 코드도 보지 조차 않았고, 그냥 튜토리얼 동영상 후반에 등장하는 UI의 결과물만 조금 참고하긴 하였습니다, 
+그래서 코드와 구현 방법이 전혀 다를 것입니다.
+- 제한된 API 호출 때문에, 호출 횟수를 분산시키기 위해 비슷한 2개의 유튜브 API를 사용하기로 결정했습니다.
 
-# Functions
-- Responsive Website
-- Navigation bar(Header), Footer(for little width)
-- Home Animation(Explanation)
-- Search and Genre Video
-- Preview video When Mouse is over the thumbnail for 2 secs
-- History (Watch, Delete, Delete All)
-- Watch later (Watch, Delete)
-- Save and delete videos into Watch later with Drag & Drop
-- Save videos from video detail into Watch later and the Notification
-- Video Detail
-- Related Videos(from API), Other Videos(from the data before you click the video)
-- Channel Detail
-- Date(time) to Timeageo
-- Dark Mode
-- Spinner Loading, Animate-pulse Loading
+# 기능
+- 반응형 웹 사이트
+- 네비게이션 바(헤더부분), 네비게이션 푸터(모바일용)
+- 홈 애니메이션(설명)
+- 검색과 장르별 비디오
+- 마우스가 썸네일에 2초동안 올려져 있을때 비디오 미리보기
+- History (보기, 삭제, 모두삭제)
+- Watch later (보기, 삭제)
+- 드래그 앤 드롭을 이용하여 Watch later에 비디오 저장 및 삭제
+- 비디오 디테일 페이지에서 저장 및 알림
+- 비디오 디테일
+- 관련있는 비디오(API에서 추천), 다른 비디오(비디오 클릭전에 데이터들)
+- 채널 디테일
+- 날짜(시간)을 Timgago형식으로
+- 다크모드
+- 스피너 로딩중, Animate-pulse 로딩
 
-# Sample pictures
+# 샘플 사진
 
-- Video
+- 비디오
 ![Video](https://user-images.githubusercontent.com/106279616/211402776-a675d6b3-8554-456e-862b-cc34736cedd4.png)
 
-- Save Video in Drag & Drop
+- 드래그 앤 드롭으로 비디오 저장
 ![Drag Drop](https://user-images.githubusercontent.com/106279616/211402791-629cc471-f6f6-4f1f-bd8b-f3ff08eb8d8e.png)
 
-- Video Detail
+- 비디오 디테일
 ![Video_Detail](https://user-images.githubusercontent.com/106279616/211402796-834f0282-800e-40c9-8ec9-ac5211d840a6.png)
 
-- Channel Detail
+- 채널 디테일
 ![Channel_Detail](https://user-images.githubusercontent.com/106279616/211402817-64ddf0bf-9412-45c2-b5b4-a0364ef313a0.png)
 
 
-# Sample videos
+# 샘플 비디오
 
-<h3> 1. Search, Genre, detail, Preview </h3>
+<h3> 1. 비디오 검색, 장르, 디테일, 미리보기 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211602339-52195ac2-f394-4dbc-a580-43dd969bf1d9.mp4"></video>
 
-<h3> 2. Save and delete with Drag & Drop </h3>
+<h3> 2. 드래그 앤 드롭으로 저장 및 삭제 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211602667-b20aa794-0bc1-4716-83e5-b3196ba941a0.mp4"></video>
 
-<h3> 3. Save videos in detail and Notification </h3>
+<h3> 3. 디테일에서 저장 및 알림 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211602900-b0603fec-c099-46d5-aa20-95e25a484ee4.mp4"></video>
 
-<h3> 4. History, Video Detail, Channel Detail </h3>
+<h3> 4. History, 비디오 디테일, 채널 디테일 </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211603068-a73f4560-e8c5-4447-8494-607ec6fa323a.mp4"></video>
 
-<h3> 5. Dark Mode, Responsive, Home </h3>
+<h3> 5. 다크모드, 반응형, Home </h3>
 <video src="https://user-images.githubusercontent.com/106279616/211603120-7519249f-aa55-4e89-99c3-9bb1067c14d5.mp4"></video>
 
