@@ -30,8 +30,8 @@ so it was more hard time to dicover the problem
 - Comment language : Korean
 - Date of creation : Dec 20th 2022 ~ Jan 6th 2023
 - Date of debugging : Jan 6th ~ Jan 10th 2023 (clean code, fix error, custom hook, comment)
-- Date of upload : <strike>Jan 9th</strike> -> Feb 3rd 2023
-- Date of 1st deployment : Jan 10th 2023
+- Date of upload : Jan 9th 2023
+- Date of deployment : <strike>Jan 10th 2023</strike> -> Feb 3rd 2023
 - Deployment Tool : <strike>Vercel</strike> -> Cloudtype
 
 # Ps, FYI
