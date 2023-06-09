@@ -1,4 +1,4 @@
-<a href="README_KOR.md">한글로 보기(KOR)</a>
+---------- <a href="README_KOR.md">한글로 보기(KOR)</a> ----------
 
 # MyTube_project--Nextjs_TypeScript
 - Website Link : https://port-0-mytube-1jx7m2gldonqeix.gksl1.cloudtype.app/
