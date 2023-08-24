@@ -11,7 +11,6 @@ function RecommendedVideoComponent({
 }: RecommendedVideoComponentProps) {
   const dispatch = useDispatch();
   const router = useRouter();
-  console.log(data);
   return (
     <>
       {data?.map(
