@@ -23,39 +23,44 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
 
   return (
     <>
-      <h1 className='text-4xl my-8 mx-16'>Warch Later</h1>
+      <h1 className='text-2xl sm:text-4xl my-4 sm:my-8 ml-16'>Warch Later</h1>
       {/* 비디오들 */}
       <div className='flex'>
         <div className='flex justify-evenly flex-wrap'>
           {(delData ? delData : data)?.map(
             // 삭제한 데이터가 있는경우 그 array를 실시간으로 적용
             (arr: DataArr, idx: number) => {
+              const tempThumbnailUrl = arr.snippet.thumbnails.default?.url;
+              const thumbnailUrl =
+                tempThumbnailUrl?.charAt(5) === ' '
+                  ? tempThumbnailUrl?.slice(0, 5) +
+                    ':' +
+                    tempThumbnailUrl?.slice(8)
+                  : tempThumbnailUrl;
               return (
-                <div key={arr.id.videoId || arr.etag} className='flex'>
+                <div key={arr.id.videoId || arr.etag} className='flex relative'>
                   <div
                     onClick={() => {
                       dispatch(getVideoForDetail(arr));
                       router.push(`/video/detail/${arr.id.videoId}`);
                     }}
-                    className='w-96 h-[480px] m-4 cursor-pointer hover:md:scale-110'
+                    className='w-[330px] h-[330px] m-2 px-1 sm:w-[384px] sm:h-[490px] sm:m-4 cursor-pointer flex flex-col justify-center hover:md:scale-110'
                   >
                     {/* 썸네일 */}
-                    <div>
+                    <div className='relative w-[320px] h-[180px] sm:w-[383px] sm:h-[330px]'>
                       <Image
-                        src={arr.snippet.thumbnails.high?.url}
-                        height={230}
-                        width={383}
+                        src={thumbnailUrl}
+                        fill
                         alt={`LOGO_${arr.snippet.title}`}
                         className='rounded-2xl'
                       />
                     </div>
-                    <div className='p-3 mt-3'>
+                    <div className='sm:p-3 mt-3'>
                       {/* 동영상 타이틀 */}
-                      <h1 className='text-2xl'>
+                      <h1 className='text-xl sm:text-2xl'>
                         {arr.snippet.title
                           .replace(/&quot;/g, '"')
                           .replace(/&#39;/g, "'")}
-                        {/* 가끔씩 "대신 &quot;나 &#39;가 출력되는경우가 있음 */}
                       </h1>{' '}
                       {/* 채널명, TimeAgo */}
                       <h3 className='flex text-gray-500 mt-2'>
@@ -64,9 +69,10 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
                       </h3>
                     </div>
                   </div>
-                  {/*  */}
+                  {/* 삭제 버튼 */}
                   <div
-                    className='flex justify-center p-2 w-12 h-12 rounded-full text-3xl cursor-pointer hover:bg-gray-200'
+                    className='flex justify-center absolute right-[28px] top-[47px] sm:static p-2 w-10 h-10 rounded-full text-2xl sm:w-12 sm:h-12 sm:text-3xl cursor-pointer
+                    bg-gray-100 sm:bg-white hover:bg-gray-200'
                     onClick={() => deleteVideo(idx)}
                   >
                     <RiCloseLine />
