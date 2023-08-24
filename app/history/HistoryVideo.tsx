@@ -17,8 +17,8 @@ function HistoryVideo({ data }: HistoryVideoProps) {
   const deleteVideo = (idx: number) => {
     const dataClone = delData ? [...delData] : [...data]; // 삭제한적 있는경우 delData를 가져옴
     dataClone.splice(idx, 1);
-    localStorage.setItem("history", JSON.stringify([...dataClone])); // 삭제하고 남은 history 데이터를 localStorage에 다시저장
-    setDelData(dataClone); // 실시간으로 적용
+    localStorage.setItem("history", JSON.stringify([...dataClone])); 
+    setDelData(dataClone);
   };
 
   // All Hisory 삭제
@@ -46,7 +46,6 @@ function HistoryVideo({ data }: HistoryVideoProps) {
       <div className="flex">
         <div className="flex justify-evenly flex-wrap">
           {(delData ? delData : data)?.map(
-            // 삭제한 데이터가 있는경우 그 array를 실시간으로 적용
             (
               arr: DataArr,
               idx: number
@@ -76,7 +75,6 @@ function HistoryVideo({ data }: HistoryVideoProps) {
                         {arr.snippet.title
                           .replace(/&quot;/g, '"')
                           .replace(/&#39;/g, "'")}
-                        {/* 가끔씩 "대신 &quot;나 &#39;가 출력되는경우가 있음 */}
                       </h1>{" "}
                       {/* 채널명, TimeAgo */}
                       <h3 className="flex text-gray-500 mt-2">

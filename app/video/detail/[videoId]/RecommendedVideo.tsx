@@ -3,7 +3,6 @@ import RecommendedVideoComponent from "./RecommendedVideoComponent";
 import LoadingForDataFetching from "./LoadingForDataFetching";
 import useFetchData from "./../../../../utils/useFetchData";
 
-// 디폴트 함수
 function RecommendedVideo({ otherDatas, videoId }: RecommendedVideoProps) {
   const fromWhereState =
     useSelector((state: stateProps) => state?.arrData[1]?.fromWhere)?.replace(/%20/g," ") || null;

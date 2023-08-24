@@ -8,7 +8,7 @@ function Genre({ params: { genre } }: GenreProps) {
   const dispatch = useDispatch();
   dispatch(getFromWhere(genre)); // from genre
 
-  // Custom Hook(with useQuery)
+  // Custom Hook
   const { data, isLoading } = useFetchData("videos", `/api/videos?q=${genre}`, genre);
 
   if (isLoading) {

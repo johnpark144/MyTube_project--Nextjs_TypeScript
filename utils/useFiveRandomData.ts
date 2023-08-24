@@ -11,7 +11,7 @@ function useFiveRandomData(arrDataState:any) {
     }
 
     const fiveOtherDatas = arrDataState?.filter((arr: object, idx: number) => {
-      return randNumArr.some((randNumArrIdx) => randNumArrIdx === idx); // 랜덤숫자 배열안에 숫자와 겹치는 index데이터 저장
+      return randNumArr.some((randNumArrIdx) => randNumArrIdx === idx); 
     });
 
 

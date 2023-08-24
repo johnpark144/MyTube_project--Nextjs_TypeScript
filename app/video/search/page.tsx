@@ -10,7 +10,7 @@ function searchPage() {
   const q = searchParams.get("q");
 
   const dispatch = useDispatch();
-  dispatch(getFromWhere(q)); // from searchParams Query
+  dispatch(getFromWhere(q));
 
   // Custom Hook(with useQuery)
   const { data, isLoading } = useFetchData("videos", `/api/videos?q=${q}`, q);

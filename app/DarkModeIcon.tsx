@@ -3,15 +3,16 @@ import { useTheme } from "next-themes";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
 function DarkModeIcon() {
-  const { systemTheme, theme, setTheme } = useTheme(); // 다크모드 툴
+  const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+// 새로고침시 아이콘 유지
   useEffect(() => {
     setMounted(true);
-  }, []); // 다크모드떄 새로고침해도 태양모양 아이콘 유지시키려고
+  }, []); 
 
   const renderThemeChanger = () => {
-    if (!mounted) return null; // 다크모드떄 새로고침해도 태양모양 아이콘 유지시킴
+    if (!mounted) return null; // 새로고침시 아이콘 유지
 
     const currentTheme = theme === "s" ? systemTheme : theme; // systemTheme은 항상 light (일반모드 light 디폴트)
 

@@ -21,20 +21,20 @@ function videoDetailPage({ params: { videoId } }: videoDetailPageProps) {
   if (!videoState.length) return <div>no datas</div>;
 
   // 동영상정보
-  const video = videoState[0].arr || history[0]; // 새로고침시 localStorage history의 가장 최근 동영상 나옴 (즉 현재 페이지의 동영상)
+  const video = videoState[0].arr || history[0];
   const title = video?.snippet?.title;
   const channel = video?.snippet?.channelTitle;
   const channelId = video?.snippet?.channelId;
   const publishedAt = video?.snippet?.publishedAt;
   const description = video?.snippet?.description;
 
-  const [otherDatas, setOtherDatas] = useState([]); // redux state로부터 받은 추천 동영상들(클릭전 비디오들)
+  const [otherDatas, setOtherDatas] = useState([]);
 
   // ##### 접속할경우 로컬스토리지 history에 현재 동영상 데이터 저장
   useEffect(() => {
     setTime(new Date(publishedAt).toLocaleString()); // 서버 클라이언트 (시간, 로컬스토리지)차이 오류 방지
     
-    let historyStorage = JSON.parse(localStorage.getItem("history") || "[]"); // JSON.parse에 타입 null 들어가는 오류 방지
+    let historyStorage = JSON.parse(localStorage.getItem("history") || "[]"); 
     let videoInStorage = historyStorage.filter(
       (arr: { id: { videoId: any } }) => video?.id.videoId !== arr.id.videoId
     ); // 중복되면 기존꺼 제거
