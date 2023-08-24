@@ -6,7 +6,7 @@ function DroppableOfVideo({ data, showWatchLater, watchLaterData }: DroppableOfV
     <Droppable droppableId="videos" isDropDisabled={!showWatchLater}>
       {(provided) => (
         <div
-          className="flex justify-evenly flex-wrap"
+          className="flex justify-evenly items-center flex-wrap"
           ref={provided.innerRef}
           {...provided.droppableProps}
         >

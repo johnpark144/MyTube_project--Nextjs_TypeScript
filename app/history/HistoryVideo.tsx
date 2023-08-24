@@ -60,7 +60,7 @@ function HistoryVideo({ data }: HistoryVideoProps) {
                     dispatch(getVideoForDetail(arr));
                     router.push(`/video/detail/${arr.id.videoId}`);
                   }}
-                  className='w-[330px] h-[330px] m-2 px-1 sm:w-[384px] sm:h-[490px] sm:m-4 cursor-pointer flex flex-col justify-center hover:md:scale-110'
+                  className='w-[330px] h-[330px] m-2 px-1 sm:w-[384px] sm:h-[490px] sm:m-4 cursor-pointer flex flex-col hover:md:scale-110'
                 >
                   {/* 썸네일 */}
                   <div className='relative w-[320px] h-[180px] sm:w-[383px] sm:h-[330px]'>

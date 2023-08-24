@@ -17,7 +17,7 @@ function VideoDetail({
   const router = useRouter();
 
   return (
-    <div className='flex flex-col items-center p-1 sm:p-6 lg:inline '>
+    <div className='flex flex-col items-center px-2 py-1 sm:p-6 lg:inline '>
       {/*  동영상  */}
       <iframe
         id='ytplayer'
@@ -26,7 +26,7 @@ function VideoDetail({
         frameBorder='0'
         allowFullScreen={true}
         className={
-          'w-[455px] h-[320px] sm:w-[570px] sm:h-[430px] md:w-[700px] md:h-[500px] xl:w-[800px] xl:h-[530px] 2xl:w-[980px] 2xl:h-[630px]'
+          'w-full h-[300px] sm:w-[570px] sm:h-[430px] md:w-[700px] md:h-[500px] xl:w-[800px] xl:h-[530px] 2xl:w-[980px] 2xl:h-[630px]'
         }
       ></iframe>
       {/* 타이틀, 타이틀 로딩중*/}

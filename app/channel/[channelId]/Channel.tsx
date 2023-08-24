@@ -1,7 +1,7 @@
-import { useState } from "react";
-import ChannelHeader from "./ChannelHeader";
-import ChannelHomeVideo from "./ChannelHomeVideo";
-import useFetchData from "./../../../utils/useFetchData";
+import { useState } from 'react';
+import ChannelHeader from './ChannelHeader';
+import ChannelHomeVideo from './ChannelHomeVideo';
+import useFetchData from './../../../utils/useFetchData';
 
 // 디폴트 함수
 function Channel({ channelId }: ChannelProps) {
@@ -9,19 +9,19 @@ function Channel({ channelId }: ChannelProps) {
 
   // Custom Hook(with useQuery)
   const { data, isLoading } = useFetchData(
-    "channel",
+    'channel',
     `https://youtube-v31.p.rapidapi.com/channels?part=snippet%2Cstatistics&id=${channelId}`,
     channelId,
-    "rapidApi"
+    'rapidApi'
   );
 
   if (isLoading) {
-    return <span className="loader"></span>;
+    return <span className='loader'></span>;
   }
 
   return (
     <>
-      {data ? (
+      {data && (
         <>
           <ChannelHeader
             data={data}
@@ -34,8 +34,6 @@ function Channel({ channelId }: ChannelProps) {
             channelId={channelId}
           />
         </>
-      ) : (
-        ""
       )}
     </>
   );
