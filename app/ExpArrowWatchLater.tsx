@@ -59,7 +59,7 @@ function ExpArrowWatchLater({
         style={{
           top: '255px',
           left: '99%',
-          marginLeft: '-600px',
+          marginLeft: '-680px',
           width: '30px',
           height: '3px',
         }}
@@ -71,7 +71,7 @@ function ExpArrowWatchLater({
         style={{
           top: '255px',
           left: '99%',
-          marginLeft: '-500px',
+          marginLeft: '-570px',
           width: '30px',
           height: '3px',
         }}
@@ -83,7 +83,7 @@ function ExpArrowWatchLater({
         style={{
           top: '255px',
           left: '99%',
-          marginLeft: '-400px',
+          marginLeft: '-460px',
           width: '30px',
           height: '3px',
         }}
@@ -95,7 +95,7 @@ function ExpArrowWatchLater({
         style={{
           top: '255px',
           left: '99%',
-          marginLeft: '-300px',
+          marginLeft: '-350px',
           width: '30px',
           height: '3px',
         }}
@@ -107,7 +107,7 @@ function ExpArrowWatchLater({
         style={{
           top: '255px',
           left: '99%',
-          marginLeft: '-200px',
+          marginLeft: '-240px',
           width: '30px',
           height: '3px',
         }}
@@ -118,19 +118,19 @@ function ExpArrowWatchLater({
 
       {/* 위로 향하는 점선 */}
       <span
-        style={{ top: '215px', left: '99%', marginLeft: '-165px' }}
+        style={{ top: '215px', left: '99%', marginLeft: '-185px' }}
         className={classNameFunction('2', '8', 'r', 0, 9, 0, 1, 2)}
       >
         &nbsp;
       </span>
       <span
-        style={{ top: '155px', left: '99%', marginLeft: '-165px' }}
+        style={{ top: '155px', left: '99%', marginLeft: '-185px' }}
         className={classNameFunction('2', '8', 'r', 0, 0, 1, 2, 3)}
       >
         &nbsp;
       </span>
       <span
-        style={{ top: '95px', left: '99%', marginLeft: '-165px' }}
+        style={{ top: '95px', left: '99%', marginLeft: '-185px' }}
         className={classNameFunction('2', '8', 'r', 0, 1, 2, 3, 4)}
       >
         &nbsp;
@@ -138,7 +138,7 @@ function ExpArrowWatchLater({
 
       {/* 화살표 */}
       <span
-        style={{ top: '50px', left: '99%', marginLeft: '-188px' }}
+        style={{ top: '50px', left: '99%', marginLeft: '-208px' }}
         className={`text-5xl ${classNameFunction(
           '0',
           '0',

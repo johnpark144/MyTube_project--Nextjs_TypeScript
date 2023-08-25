@@ -48,7 +48,7 @@ function TV_Letters({
         >
           WELCOME TO
         </h1>
-        <div className='flex items-center mt-[3vw] lg:mt-[45px]'>
+        <div className='flex items-center mt-[2vw] lg:mt-[45px]'>
           {/* MyTube 로고  */}
           <Image
             src='https://user-images.githubusercontent.com/106279616/209161034-33287953-5b8f-40b3-ac12-a63010849fbf.png'
@@ -59,7 +59,7 @@ function TV_Letters({
             className={`z-10
         ${
           arrowTimer < 5 &&
-          'transition-all duration-1000 delay-1600 ease-in-out'
+          'transition-all duration-1000 delay-1300 ease-in-out'
         }
         ${
           showAnimations ? '-translate-y-6 opacity-100' : 'opacity-0'
@@ -68,7 +68,7 @@ function TV_Letters({
           {/* MyTube 문구 */}
           <h1
             className={`z-10 text-[6vw] lg:text-[65px]
-      ${arrowTimer < 5 && 'transition-all duration-1000 delay-1600 ease-in-out'}
+      ${arrowTimer < 5 && 'transition-all duration-1000 delay-1300 ease-in-out'}
       ${
         showAnimations ? '-translate-y-6 opacity-100' : 'opacity-0'
       } ${showClassFlicker3}`}
@@ -79,13 +79,13 @@ function TV_Letters({
         {/* Let's Go 버튼 */}
         <Link
           href='/video'
-          className={`relative -top-[15px] sm:top-2 font-medium text-[5vw] px-3 py-1.5 sm:text-[6vw] sm:px-5 sm:py-2.5 lg:text-[60px] text-center
+          className={`relative -top-[5px] sm:top-8 font-medium text-[5vw] px-3 py-1.5 sm:text-[6vw] sm:px-5 sm:py-2.5 lg:text-[60px] text-center
        text-white bg-gradient-to-r
        from-gray-500 via-gray-600 to-gray-700 hover:bg-gradient-to-br 
        focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 
        shadow-lg shadow-gray-500/50 dark:shadow-lg dark:shadow-gray-800/80  
        rounded-lg z-10
-      ${arrowTimer < 5 && 'transition-all duration-1000 delay-1300 ease-in-out'}
+      ${arrowTimer < 5 && 'transition-all duration-1000 delay-1600 ease-in-out'}
       ${
         showAnimations ? '-translate-y-6 opacity-100' : 'opacity-0'
       } ${showClassFlicker2}`}

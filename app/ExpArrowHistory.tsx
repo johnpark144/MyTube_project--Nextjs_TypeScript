@@ -53,7 +53,7 @@ function ExpArrowHistory({
           : 'opacity-0 blur-2xl'
       }`}
       >
-        <h1>All videos you watch</h1>
+        <h1>All videos you watched</h1>
         <h1>are saved here</h1>
       </div>
       {/* 오른쪽으로 향하는 점선 */}
@@ -61,7 +61,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-650px',
+          marginLeft: '-700px',
           width: '30px',
           height: '3px',
         }}
@@ -73,7 +73,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-550px',
+          marginLeft: '-590px',
           width: '30px',
           height: '3px',
         }}
@@ -85,7 +85,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-450px',
+          marginLeft: '-480px',
           width: '30px',
           height: '3px',
         }}
@@ -97,7 +97,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-350px',
+          marginLeft: '-370px',
           width: '30px',
           height: '3px',
         }}
@@ -109,7 +109,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-250px',
+          marginLeft: '-260px',
           width: '30px',
           height: '3px',
         }}
@@ -133,7 +133,7 @@ function ExpArrowHistory({
         style={{
           top: '470px',
           left: '95%',
-          marginLeft: '-50px',
+          marginLeft: '-40px',
           width: '30px',
           height: '3px',
         }}

@@ -43,9 +43,8 @@ function ExpArrowVideo({
       <div
         className={`absolute top-0 left-0 lg:top-28 lg:left-[800px] lg:text-2xl
           ${
-            arrowTimer < 5
-              ? 'transition-all duration-1000 delay-2000 ease-in-out'
-              : ''
+            arrowTimer < 5 &&
+            'transition-all duration-1000 delay-2000 ease-in-out'
           }
       ${
         showAnimations
@@ -53,7 +52,8 @@ function ExpArrowVideo({
           : 'opacity-0 blur-2xl'
       }`}
       >
-        <h1>watch any videos</h1>
+        <h1>Watch any videos</h1>
+        <h1>and check its channels</h1>
         <h1>by clicking here</h1>
       </div>
       {/* 오른쪽으로 향하는 점선 */}
@@ -61,7 +61,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-747px',
+          marginLeft: '-767px',
           width: '30px',
           height: '3px',
         }}
@@ -73,7 +73,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-647px',
+          marginLeft: '-667px',
           width: '30px',
           height: '3px',
         }}
@@ -85,7 +85,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-547px',
+          marginLeft: '-567px',
           width: '30px',
           height: '3px',
         }}
@@ -97,7 +97,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-447px',
+          marginLeft: '-467px',
           width: '30px',
           height: '3px',
         }}
@@ -109,7 +109,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-347px',
+          marginLeft: '-367px',
           width: '30px',
           height: '3px',
         }}
@@ -120,13 +120,13 @@ function ExpArrowVideo({
 
       {/* 위로향하는 점선 */}
       <span
-        style={{ top: '125px', left: '99%', marginLeft: '-290px' }}
+        style={{ top: '125px', left: '99%', marginLeft: '-330px' }}
         className={classNameFunction('2', '4', 'r', 0, 0, 1, 2, 3)}
       >
         &nbsp;
       </span>
       <span
-        style={{ top: '95px', left: '99%', marginLeft: '-290px' }}
+        style={{ top: '95px', left: '99%', marginLeft: '-330px' }}
         className={classNameFunction('2', '4', 'r', 0, 1, 2, 3, 4)}
       >
         &nbsp;
@@ -134,7 +134,7 @@ function ExpArrowVideo({
 
       {/* 화살표 */}
       <span
-        style={{ top: '50px', left: '99%', marginLeft: '-312px' }}
+        style={{ top: '50px', left: '99%', marginLeft: '-352px' }}
         className={`text-5xl ${classNameFunction(
           '0',
           '0',
@@ -154,7 +154,7 @@ function ExpArrowVideo({
         style={{
           top: '145px',
           left: '99%',
-          marginLeft: '-270px',
+          marginLeft: '-302px',
           width: '30px',
           height: '3px',
         }}

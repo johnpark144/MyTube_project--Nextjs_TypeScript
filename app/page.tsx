@@ -1,11 +1,12 @@
-"use client";
-import { useState, useEffect, useRef } from "react";
-import TV_Letters from "./TV_Letters";
-import ExpArrowHome from "./ExpArrowHome";
-import ExpArrowSearch from "./ExpArrowSearch";
-import ExpArrowVideo from "./ExpArrowVideo";
-import ExpArrowWatchLater from "./ExpArrowWatchLater";
-import ExpArrowHistory from "./ExpArrowHistory";
+'use client';
+import { useState, useEffect, useRef } from 'react';
+import TV_Letters from './TV_Letters';
+import ExpArrowHome from './ExpArrowHome';
+import ExpArrowSearch from './ExpArrowSearch';
+import ExpArrowVideo from './ExpArrowVideo';
+import ExpArrowWatchLater from './ExpArrowWatchLater';
+import ExpArrowHistory from './ExpArrowHistory';
+import ExpForSmallSize from './ExpForSmallSize';
 
 function HomePage() {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -26,14 +27,14 @@ function HomePage() {
   }, []);
 
   // width값 실시간 변경
-  if (typeof window !== "undefined") {
-    window.addEventListener("resize", () => {
+  if (typeof window !== 'undefined') {
+    window.addEventListener('resize', () => {
       setWindowWidth(window.innerWidth);
     });
   }
 
   return (
-    <div className="w-full">
+    <div className='w-full'>
       {/* TV, Welcome, Let's go, Logo */}
       <TV_Letters
         windowWidth={windowWidth}
@@ -64,6 +65,11 @@ function HomePage() {
       />
       <ExpArrowHistory
         windowWidth={windowWidth}
+        showAnimations={showAnimations}
+        arrowTimer={arrowTimer}
+      />
+      {/* 작은화면용 설명 */}
+      <ExpForSmallSize
         showAnimations={showAnimations}
         arrowTimer={arrowTimer}
       />
