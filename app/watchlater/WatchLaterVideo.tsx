@@ -46,7 +46,7 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
                       dispatch(getVideoForDetail(arr));
                       router.push(`/video/detail/${arr.id.videoId}`);
                     }}
-                    className='w-[330px] h-[330px] m-2 px-1 sm:w-[384px] sm:h-[490px] sm:m-4 cursor-pointer flex flex-col justify-center hover:md:scale-110'
+                    className='w-[330px] h-[330px] m-2 px-1 sm:w-[384px] sm:h-[490px] sm:m-4 cursor-pointer hover:md:scale-110'
                   >
                     {/* 썸네일 */}
                     <div className='relative w-[320px] h-[180px] sm:w-[383px] sm:h-[330px]'>
@@ -73,8 +73,8 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
                   </div>
                   {/* 삭제 버튼 */}
                   <div
-                    className='flex justify-center absolute right-[28px] top-[47px] sm:static p-2 w-10 h-10 rounded-full text-2xl sm:w-12 sm:h-12 sm:text-3xl cursor-pointer
-                    bg-gray-100 sm:bg-white hover:bg-gray-200'
+                    className='flex justify-center absolute right-[28px] top-[20px] sm:static p-2 w-10 h-10 rounded-full text-2xl sm:w-12 sm:h-12 sm:text-3xl cursor-pointer
+                    bg-gray-100 sm:bg-white hover:bg-gray-200 dark:text-black'
                     onClick={() => deleteVideo(idx)}
                   >
                     <RiCloseLine />
