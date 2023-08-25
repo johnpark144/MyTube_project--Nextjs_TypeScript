@@ -17,7 +17,9 @@ function RecommendedVideoComponent({
         (
           arr: DataArr // 현재 동영상과 중복되는 것 제거
         ) => {
-          const tempThumbnailUrl = arr.snippet.thumbnails.default?.url;
+          const tempThumbnailUrl =
+            arr.snippet.thumbnails.high?.url ||
+            arr.snippet.thumbnails.default?.url;
           const thumbnailUrl =
             tempThumbnailUrl?.charAt(5) === ' '
               ? tempThumbnailUrl?.slice(0, 5) + ':' + tempThumbnailUrl?.slice(8)

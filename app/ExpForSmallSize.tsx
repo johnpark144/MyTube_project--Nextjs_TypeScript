@@ -1,7 +1,7 @@
 function ExpForSmallSize({ showAnimations, arrowTimer }: ExpArrowProps) {
   return (
     <div
-      className={`absolute bottom-14 w-full text-base sm:text-lg flex flex-col justify-center items-center lg:hidden ${
+      className={`absolute bottom-14 w-full text-lg sm:text-xl flex flex-col justify-center items-center lg:hidden ${
         arrowTimer < 5 && 'transition-all duration-1000 delay-2000 ease-in-out'
       } ${
         showAnimations
@@ -10,10 +10,22 @@ function ExpForSmallSize({ showAnimations, arrowTimer }: ExpArrowProps) {
       }`}
     >
       <div>
-        <h1>📼 Video ➡ You can see videos and its channels</h1>
-        <h1>🔍 Search ➡ You can search videos </h1>
-        <h1>💾 Watch later ➡ You can save videos here</h1>
-        <h1>🕛 History ➡ You can see all videos you watched</h1>
+        <div className='flex flex-col sm:flex-row'>
+          <h1>📼 Video</h1>
+          <h1> ➡ You can see videos and its channels</h1>
+        </div>
+        <div className='flex flex-col sm:flex-row'>
+          <h1>🔍 Search</h1>
+          <h1> ➡ You can search videos </h1>
+        </div>
+        <div className='flex flex-col sm:flex-row'>
+          <h1>💾 Watch later</h1>
+          <h1> ➡ You can save videos here</h1>
+        </div>
+        <div className='flex flex-col sm:flex-row'>
+          <h1>🕛 History</h1>
+          <h1> ➡ You can see all videos you watched</h1>
+        </div>
       </div>
     </div>
   );

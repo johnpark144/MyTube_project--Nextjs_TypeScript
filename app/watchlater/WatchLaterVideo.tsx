@@ -30,7 +30,9 @@ function WatchLaterVideo({ data }: WatchLaterVideoProps) {
           {(delData ? delData : data)?.map(
             // 삭제한 데이터가 있는경우 그 array를 실시간으로 적용
             (arr: DataArr, idx: number) => {
-              const tempThumbnailUrl = arr.snippet.thumbnails.default?.url;
+              const tempThumbnailUrl =
+                arr.snippet.thumbnails.high?.url ||
+                arr.snippet.thumbnails.default?.url;
               const thumbnailUrl =
                 tempThumbnailUrl?.charAt(5) === ' '
                   ? tempThumbnailUrl?.slice(0, 5) +

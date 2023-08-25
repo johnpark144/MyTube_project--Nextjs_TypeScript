@@ -46,7 +46,9 @@ function HistoryVideo({ data }: HistoryVideoProps) {
       <div className='flex'>
         <div className='flex justify-evenly flex-wrap'>
           {(delData ? delData : data)?.map((arr: DataArr, idx: number) => {
-            const tempThumbnailUrl = arr.snippet.thumbnails.default?.url;
+            const tempThumbnailUrl =
+              arr.snippet.thumbnails.high?.url ||
+              arr.snippet.thumbnails.default?.url;
             const thumbnailUrl =
               tempThumbnailUrl?.charAt(5) === ' '
                 ? tempThumbnailUrl?.slice(0, 5) +

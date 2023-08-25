@@ -79,7 +79,10 @@ function DraggableInDroppableOfVideo({
               ) : (
                 <div className='relative w-[320px] h-[180px] sm:w-[383px] sm:h-[230px]'>
                   <Image
-                    src={arr.snippet.thumbnails.default?.url}
+                    src={
+                      arr.snippet.thumbnails.high?.url ||
+                      arr.snippet.thumbnails.default?.url
+                    }
                     fill
                     quality={100}
                     alt={`LOGO_${arr.snippet.title}`}
