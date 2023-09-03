@@ -24,6 +24,8 @@ function HomePage() {
       arrowTimerRef.current += 1;
       setArrowTimer(arrowTimerRef.current);
     }, 500);
+
+    return () => clearInterval(timer2);
   }, []);
 
   // width값 실시간 변경
